@@ -1,0 +1,165 @@
+.telemetry__content {
+    text-align: left;
+}
+
+.telemetry__list {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.telemetry__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 155px;
+    flex-direction: row-reverse;
+}
+
+
+.telemetry__spetical {
+    width: 445px;
+    height: 313px;
+}
+
+.telemetry__title {
+    width: 465px;
+    height: 96px;
+    font-size: 48px;
+    line-height: 48px;
+    font-family: space-Mono, Courier, monospace;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.elemetry__discrip {
+    width: 445px;
+    height: 100px;
+    font-size: 15px;
+    line-height: 25px;
+    font-family: 'LexendDeca', Arial, sans-serif;
+    font-weight: 400;
+    color: rgba(147, 156, 170, 0.6);
+    margin-bottom: 40px;
+}
+
+.telemetry__img {
+    border-radius: 50%;
+}
+
+
+.telemetry__wrapper {
+    position: relative;
+
+    &::before {
+        position: absolute;
+        display: block;
+        max-width: 735px;
+        width: 100%;
+        height: 138px;
+        background-image: url("../../img/intro.svg");
+        top: 10px;
+        left: -265px;
+        content: '';
+    }
+}
+
+.telemetry__wrapper--easy {
+    position: relative;
+
+    &::before {
+        position: absolute;
+        display: block;
+        max-width: 735px;
+        height: 138px;
+        background-image: url("../../img/telemetry.svg");
+        top: 290px;
+        left: -100px;
+        content: '';
+    }
+}
+
+.telemetry__wrapper--coming {
+    position: relative;
+
+    &::before {
+        position: absolute;
+        display: block;
+        max-width: 735px;
+        width: 100%;
+        height: 138px;
+        background-image: url("../../img/intro.svg");
+        top: 10px;
+        left: -265px;
+        content: '';
+    }
+}
+
+.telemetry__wrapper--zero {
+    position: relative;
+
+    &::before {
+        position: absolute;
+        max-width: 735px;
+        width: 100%;
+        height: 138px;
+        background-image: url("../../img/telemetry.svg");
+        top: 70px;
+        left: 225px;
+        content: '';
+    }
+}
+
+.telemetry__item--easy {
+    position: relative;
+
+    &::after {
+        position: absolute;
+        display: block;
+        max-width: 445px;
+        width: 100%;
+        height: 445px;
+        background-color: rgba(229, 236, 244, 1);
+        border-radius: 50%;
+        top: 0px;
+        right: -460px;
+        z-index: -1;
+        content: '';
+    }
+}
+
+.telemetry__item--coming {
+    position: relative;
+
+    &::after {
+        position: absolute;
+        display: block;
+        max-width: 445px;
+        width: 100%;
+        height: 445px;
+        background-color: rgba(229, 236, 244, 1);
+        border-radius: 50%;
+        top: 30px;
+        left: -470px;
+        z-index: -1;
+        content: '';
+    }
+}
+
+.telemetry__item--zero {
+    position: relative;
+
+    &::after {
+        position: absolute;
+        display: block;
+        max-width: 445px;
+        width: 100%;
+        height: 445px;
+        background-color: rgba(229, 236, 244, 1);
+        border-radius: 50%;
+        top: 0px;
+        right: -460px;
+        z-index: -1;
+        content: '';
+    }
+}

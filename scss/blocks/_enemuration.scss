@@ -1,0 +1,117 @@
+.enumerate {
+    position: relative;
+    margin-bottom: 200px;
+
+    &::before {
+        position: absolute;
+        width: 100%;
+        height: 1px;
+        border: 1px solid #000;
+        content: '';
+    }
+}
+
+.enumerate__list {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 160px;
+}
+
+.enumerate__item--mobile {
+    margin-right: 30px;
+    position: relative;
+
+    &::before {
+        position: absolute;
+        width: 96px;
+        height: 96px;
+        background-color: rgba(252, 183, 43, 1);
+        border-radius: 50%;
+        top: -52px;
+        left: -32px;
+        content: '';
+    }
+
+    &::after {
+        position: absolute;
+        width: 38px;
+        height: 48px;
+        background-image: url("../../img/after.svg");
+        top: -30px;
+        left: -1px;
+        content: '';
+    }
+}
+.enumerate__item--scoter {
+    margin-right: 30px;
+    position: relative;
+
+    &::before {
+        position: absolute;
+        width: 96px;
+        height: 96px;
+        background-color: rgba(252, 183, 43, 1);
+        border-radius: 50%;
+        top: -52px;
+        left: -32px;
+        content: '';
+    }
+
+    &::after {
+        position: absolute;
+        width: 43px;
+        height: 32px;
+        background-image: url("../../img/scoter.svg");
+        top: -25px;
+        left: -5px;
+        content: '';
+    }
+}
+.enumerate__item--ride {
+    margin-right: 30px;
+    position: relative;
+
+    &::before {
+        position: absolute;
+        width: 96px;
+        height: 96px;
+        background-color: rgba(252, 183, 43, 1);
+        border-radius: 50%;
+        top: -52px;
+        left: -32px;
+        content: '';
+    }
+
+    &::after {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        background-image: url("../../img/ride.svg");
+        top: -25px;
+        left: -5px;
+        content: '';
+    }
+}
+
+.enumerate__title {
+    margin-top: 87px;
+    width: 350px;
+    height: 28px;
+    font-size: 24px;
+    line-height: 28px;
+    font-family: space-Mono, Courier, monospace;
+    font-weight: 700;
+}
+
+.enumerate__discrip {
+    width: 350px;
+    height: 100px;
+    font-size: 15px;
+    line-height: 25px;
+    font-family: 'LexendDeca', Arial, sans-serif;
+    font-weight: 400;
+    color: rgba(147, 156, 170, 0.6);
+}
